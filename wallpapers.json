@@ -1,0 +1,14 @@
+[
+  {
+    "id": "wp1",
+    "title": "Desert",
+    "type": "static",
+    "url": "https://yourhost.com/wallpapers/wp1.jpg"
+  },
+  {
+    "id": "live1",
+    "title": "Ocean Waves",
+    "type": "live",
+    "url": "https://yourhost.com/wallpapers/live1.mp4"
+  }
+]
