@@ -3,12 +3,24 @@
     "id": "wp1",
     "title": "Desert",
     "type": "static",
-    "url": "https://yourhost.com/wallpapers/wp1.jpg"
+    "url": "https://reddead11.github.io/wallpaper-data/static/wp1.jpg"
+  },
+  {
+    "id": "wp2",
+    "title": "Mountains",
+    "type": "static",
+    "url": "https://reddead11.github.io/wallpaper-data/static/wp2.jpg"
   },
   {
     "id": "live1",
     "title": "Ocean Waves",
     "type": "live",
-    "url": "https://yourhost.com/wallpapers/live1.mp4"
+    "url": "https://reddead11.github.io/wallpaper-data/live/live1.mp4"
+  },
+  {
+    "id": "live2",
+    "title": "Rainy City",
+    "type": "live",
+    "url": "https://reddead11.github.io/wallpaper-data/live/live2.mp4"
   }
 ]
