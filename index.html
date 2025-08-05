@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wallpaper Preview</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .wallpaper {
+      margin: 20px auto;
+      max-width: 90%;
+    }
+    img, video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .label {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Wallpaper Preview</h1>
+
+  <div class="wallpaper">
+    <div class="label">Static Wallpaper</div>
+    <img src="wp1.jpg" alt="Wallpaper 1" />
+  </div>
+
+  <div class="wallpaper">
+    <div class="label">Live Wallpaper (Video)</div>
+    <video controls autoplay loop muted>
+      <source src="live1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</body>
+</html>
